@@ -38,6 +38,10 @@ elif [[ "$os" == "Darwin" ]]; then
     echo ""
     echo "Disk Usage (root):"
     df -h /
+
+    # А тутЬ мы выведем что-нибудь прикольное, но нетЬ.
+    #echo ""
+    #echo "курлык-курлык"
     
 else
     echo "Unsupported OS: $os"
